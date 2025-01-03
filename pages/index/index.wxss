@@ -1,0 +1,94 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+  width: 80%;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.avatar-wrapper {
+  padding: 0;
+  width: 56px !important;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.nickname-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-top: .5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: .5px solid rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.nickname-label {
+  width: 105px;
+}
+
+.nickname-input {
+  flex: 1;
+}
+
+.container {
+  padding: 20rpx;
+  text-align: center;
+}
+
+.title {
+  font-size: 36rpx;
+  margin-bottom: 30rpx;
+}
+
+button {
+  margin: 20rpx;
+  width: 80%;
+}
+
+button[disabled] {
+  opacity: 0.5;
+}
+
+.output {
+  margin: 30rpx;
+  padding: 20rpx;
+  background: #f5f5f5;
+  border-radius: 10rpx;
+  text-align: left;
+}
+
+.output-title {
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}

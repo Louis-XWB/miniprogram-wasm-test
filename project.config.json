@@ -1,0 +1,26 @@
+{
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "packNpmManually": true,
+    "packNpmRelationList": [],
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "appid": "wx1c2d25fb7a877e04",
+  "projectname": "wasm-demo",
+  "libVersion": "2.14.1",
+  "condition": {},
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "compileType": "miniprogram",
+  "editorSetting": {
+    "tabIndent": "auto",
+    "tabSize": 2
+  }
+}
